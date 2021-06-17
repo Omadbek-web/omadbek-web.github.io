@@ -1,0 +1,210 @@
+.y_1{
+    color: #feb633;
+    font-size: 50px;
+}
+
+.y_2:hover{
+    color: #feb633;
+}
+
+.y_3{
+    border: 2px solid #feb633;
+    background: #feb633;
+}
+
+.y_3:hover{
+    color: #feb633;
+    background: none;
+    transition: 0.5s;
+}
+
+.y_4{
+    background: #feb633;
+}
+
+.y_5, .y_6{
+    border: 2px solid #feb633;
+    color: #feb633;
+}
+
+.y_5{
+    background: #feb633;
+    color: #fff;
+    
+}
+
+.y_5:hover{
+    background: none;
+    color:#feb633;
+}
+
+.y_6:hover{
+    background: #feb633;
+}
+
+.y_7{
+    color: #feb633;
+}
+
+.y_7:hover{
+    background: #feb633;
+}
+
+.y_8{
+    background: #feb633;
+    border: 2px solid #feb633;
+}
+    
+.y_8:hover{
+    background: none;
+    color: #feb633;
+}
+
+.y_9:hover{
+    background: #feb633;
+    transition: 0.8s;
+}
+
+.y_10{
+    color: rgb(254, 182, 51);
+}
+
+
+
+
+@media(max-width:1130px){
+    .block_1{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .block_2_m{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact_me{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .number_mail input{
+        width: 215px;
+    }
+    .your_messgae textarea{
+        width: 450px;
+    }
+    .name input{
+        width: 450px;
+    }
+}
+
+@media(max-width:1130px){
+    .block_2_m{
+        grid-template-columns: 1fr;
+    }
+    .block_2_right{
+        align-items: flex-start;
+    }
+    .block_2_right > p{
+        margin-bottom: 30px;
+    }
+    .anc{
+        display: flex;
+        flex-direction: column;
+    }
+    .anc > a{
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:900px){
+    .block_1{
+        flex-direction: column;
+        padding-top:30px ;
+    }
+    .block_1_left{
+        margin-bottom: 30px;
+    }
+    .block_2_right img{
+        width: 100%;
+    }
+    .block_3_card{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:780px){
+    .contact_me{
+        grid-template-columns: 1fr;
+    }
+    .nav_left{
+        display: none;
+    }
+    
+    .nav_left{
+        grid-template-columns: 1fr;
+    }
+    .nav_right{
+        justify-content: flex-start;
+        margin-left: none !important;
+    }
+    .block_1_left{
+        align-items: center;
+    }
+    .block_1_left h3{
+        width: 80%;
+    }
+}
+
+@media(max-width:550px){
+    .name input, .your_messgae textarea, .number_mail input{
+        width: 300px;
+    }
+    .number_mail{
+        grid-template-columns: 1fr;
+    }
+    .block_1_left >h1, .about_me_title{
+        font-size: 35px;
+    }
+    .block_1_left >h3, .block_2_right p{
+        font-size: 16px;
+    }
+    .block_1_left >a, #y_5, #y_6{
+        padding: 10px 30px;
+    }
+    .block_3_card >*{
+        width: 250px;
+        height: 150px;
+    }
+    .card{
+        padding: 10px;
+    }
+    .card >img{
+        width: 15px;
+    }
+    .card > h2{
+        font-size: 15px;
+    }
+    .card > p{
+        font-size: 10px;
+    }
+    .block_3_m_p, .block_6_m_p{
+        width: 80%;
+    }
+    .nav_right{
+        display: none;
+        flex-direction: column;
+    }
+    .menu{
+        display: block;
+    }
+    .hm .container{
+        margin: 0;
+    }
+    .iks{
+        display: block;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+}
